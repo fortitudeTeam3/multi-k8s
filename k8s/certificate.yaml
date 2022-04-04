@@ -8,7 +8,7 @@ spec:
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
-  commonName: david-aws.net
+  commonName: david-aws.com
   dnsNames:
-    - david-aws.net
-    - www.david-aws.net
+    - david-aws.com
+    - www.david-aws.com
