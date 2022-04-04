@@ -11,11 +11,11 @@ metadata:
 spec:
   tls:
     - hosts:
-        - david-aws.com
-        - www.david-aws.com
+        - david-aws.net
+        - www.david-aws.net
       secretName: yourdomain-com
   rules:
-    - host: david-aws.com
+    - host: david-aws.net
       http:
         paths:
           - path: /?(.*)
@@ -32,7 +32,7 @@ spec:
                 name: server-cluster-ip-service
                 port:
                   number: 5000
-    - host: www.david-aws.com
+    - host: www.david-aws.net
       http:
         paths:
           - path: /?(.*)
